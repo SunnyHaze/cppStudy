@@ -1,0 +1,24 @@
+{
+    "version": "2.0.0",
+    "command": "g++",
+    "args": [
+        "-g",
+        "-fexec-charset=GBK",   // 处理mingw中文编码问题
+        "-finput-charset=UTF-8",// 处理mingw中文编码问题
+        "${workspaceRoot}\\.vscode\\head.h",
+        "-o",
+        "${fileBasenameNoExtension}.exe"],    // 编译命令参数。修改的是这一行，添加了-include命令，预编译头文件
+    "problemMatcher": {
+        "owner": "cpp",
+        "fileLocation": ["relative", "${workspaceRoot}"],
+        "pattern": {
+            "regexp": "^(.*):(\\d+):(\\d+):\\s+(warning|error):\\s+(.*)$",
+            "file": 1,
+            "line": 2,
+            "column": 3,
+            "severity": 4,
+            "message": 5
+        }
+    }
+}
+

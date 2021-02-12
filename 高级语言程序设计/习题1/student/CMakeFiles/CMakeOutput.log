@@ -1,0 +1,55 @@
+The system is: Linux - 4.4.0-18362-Microsoft - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/cc 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/mnt/e/c++/高级语言程序设计/student/CMakeFiles/3.10.2/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/bin/c++ 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/mnt/e/c++/高级语言程序设计/student/CMakeFiles/3.10.2/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /mnt/e/c++/高级语言程序设计/student/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_3ffea/fast"
+/usr/bin/make -f CMakeFiles/cmTC_3ffea.dir/build.make CMakeFiles/cmTC_3ffea.dir/build
+make[1]: Entering directory '/mnt/e/c++/高级语言程序设计/student/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3ffea.dir/testCCompiler.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_3ffea.dir/testCCompiler.c.o   -c /mnt/e/c++/高级语言程序设计/student/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_3ffea
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3ffea.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_3ffea.dir/testCCompiler.c.o  -o cmTC_3ffea 
+make[1]: Leaving directory '/mnt/e/c++/高级语言程序设计/student/CMakeFiles/CMakeTmp'
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /mnt/e/c++/高级语言程序设计/student/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c2567/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c2567.dir/build.make CMakeFiles/cmTC_c2567.dir/build
+make[1]: Entering directory '/mnt/e/c++/高级语言程序设计/student/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_c2567.dir/testCXXCompiler.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTC_c2567.dir/testCXXCompiler.cxx.o -c /mnt/e/c++/高级语言程序设计/student/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_c2567
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c2567.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_c2567.dir/testCXXCompiler.cxx.o  -o cmTC_c2567 
+make[1]: Leaving directory '/mnt/e/c++/高级语言程序设计/student/CMakeFiles/CMakeTmp'
+
+
